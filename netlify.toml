@@ -1,3 +1,4 @@
 [build]
   functions = "./functions-build" #  netlify-lambda reads this
   publish = "html"
+  command = yarn build
